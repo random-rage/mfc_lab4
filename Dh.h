@@ -8,7 +8,7 @@
 
 #define PRIVATE_KEY_SIZE 10
 #define PUBLIC_KEY_SIZE 512
-#define STRING_SIZE 1024
+#define STRING_SIZE 384
 #define RADIX 16
 
 using namespace std;

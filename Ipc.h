@@ -10,8 +10,7 @@
 #include <string>
 #include <exception>
 
-#define PIPE_NAME "lab4"
-#define BUFFER_SIZE 4096
+#define BUFFER_SIZE 512
 
 using namespace std;
 
@@ -22,7 +21,7 @@ private:
 	char buffer[BUFFER_SIZE];
 	
 public:
-	Ipc();
+	Ipc(string pipe_name, bool server);
 	~Ipc();
 	
 	void read(string &s);

@@ -9,3 +9,6 @@ target_compile_definitions(Lab4_server PRIVATE SERVER)
 
 add_executable(Lab4_client ${SOURCE_FILES})
 target_compile_definitions(Lab4_client PRIVATE CLIENT)
+
+add_executable(Lab4_mitm ${SOURCE_FILES})
+target_compile_definitions(Lab4_mitm PRIVATE MITM)
